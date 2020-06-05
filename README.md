@@ -1,4 +1,4 @@
-# BitMixer
+# BeattMixer
 
 ## beat mixing web app developed in vanilla JavaScript
 
