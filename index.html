@@ -31,6 +31,14 @@
         <p>Select different styles of beats and click play to have fun!!</p>
         <p></p>
       </div>
+      <div class="savedtracks-panel">
+        <p>Play saved tracks : -</p>
+        <select name="saved-tracks" id="" class="saved-tracks">
+          <option value="default">Saved tracks</option>
+        </select>
+        <button class="del-track"><i class="fas fa-trash"></i></button>
+        <button class="reset">New Track</button>
+      </div>
       <div class="kick-track">
         <div class="controls">
           <h1>Kick</h1>
@@ -101,7 +109,18 @@
           <div class="pad hihat-pad b7"></div>
         </div>
       </div>
-      <button class="play">Play</button>
+      <div class="buttons">
+        <button class="play">Play</button>
+
+        <button class="play" id="save">Save track</button>
+      </div>
+      <div class="saveform">
+        <form action="">
+          <input type="text" placeholder="Enter track name." />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <p class="msg"></p>
       <div class="tempo">
         <input
           type="range"

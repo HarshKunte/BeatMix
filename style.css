@@ -113,6 +113,13 @@ select {
   font-size: 1rem;
 }
 
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .tempo {
   margin: 3rem;
   width: 30%;
@@ -133,6 +140,68 @@ select {
   font-size: 1.5rem;
   margin: 2rem;
   text-align: center;
+}
+
+.saveform {
+  display: none;
+  margin: 4rem 4rem;
+  margin-bottom: 0;
+  width: 35%;
+}
+
+.saveform form input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 1rem 0rem;
+  width: 85%;
+  outline: none;
+  font-size: 1rem;
+}
+
+.saveform form button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(179, 172, 172);
+  border: none;
+}
+
+.msg {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: rgb(190, 16, 103);
+  transition: all 0.5 ease;
+}
+
+.savedtracks-panel {
+  margin-top: 2rem;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.savedtracks-panel p {
+  margin-right: 2rem;
+}
+
+.saved-tracks {
+  width: 10rem;
+}
+.del-track {
+  display: none;
+  border: none;
+  padding: 1.1rem;
+  font-size: 1.1rem;
+  color: rgb(190, 16, 103);
+  cursor: pointer;
+}
+
+.reset {
+  display: none;
+  margin-left: auto;
+  border: none;
+  background-color: rgb(240, 211, 226);
+  color: rgb(139, 16, 78);
+  padding: 0rem 1rem;
+  font-size: 1rem;
 }
 
 @keyframes playTrack {
@@ -162,6 +231,10 @@ select {
   }
   .tempo {
     width: 60%;
+  }
+  .saveform {
+    margin: 2rem 1rem;
+    width: 80%;
   }
 }
 
