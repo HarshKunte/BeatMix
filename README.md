@@ -1,4 +1,4 @@
-# BeatMixer
+# BeatMix
 
 ## beat mixing web app developed in vanilla JavaScript.
 
